@@ -17,6 +17,9 @@
     },
     "RemoteAgent":{
       "target":"project"
+    },
+    "ClientEmpty":{
+      "target":"project"
     }
   },
   "frameworks": {

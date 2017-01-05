@@ -5,6 +5,7 @@
     "emitEntryPoint": true
   },
   "dependencies": {
+     "System.Text.Encodings.Web": "4.3.0",
     "Iface":{
       "target":"project"
     },
@@ -14,7 +15,10 @@
     "Agent":{
       "target":"project"
     },
-    "ClientEmpty":{
+    "RemoteAgent":{
+      "target":"project"
+    },
+    "ClientWebget":{
       "target":"project"
     }
   },

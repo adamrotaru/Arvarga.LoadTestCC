@@ -4,7 +4,7 @@ using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace LoadTestCC.Proto1.TestExe1ProcWebget
+namespace LoadTestCC.Proto1.Sample.TestExe1ProcWebget
 {
     public class Program
     {
@@ -22,7 +22,7 @@ namespace LoadTestCC.Proto1.TestExe1ProcWebget
             for (int i = 0; i < clientCount; ++i)
             {
                 IAgent a1 = new Agent.Agent();
-                a1.Init(cc, new WebgetClientFactory());
+                a1.Init(cc, new ClientWebget.ClientWebgetFactory());
                 a1.Start();
                 agents.Add(a1);
                 Console.WriteLine($"Program:  agent{agents.Count} started");

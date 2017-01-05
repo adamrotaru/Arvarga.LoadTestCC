@@ -10,6 +10,7 @@ namespace LoadTestCC.Proto1.RemoteAgent
     /// </summary>
     public class RemoteAgent
     {
+        public static readonly string DefaultUrl = "http://localhost:5000";
         private Agent.Agent _wrappedAgent;
         private RemoteCC _remoteCC;
 

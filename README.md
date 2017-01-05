@@ -11,13 +11,15 @@ Based on .NET Core (ASP.NET Core)
 - Run the LoadTestCC server:
 
 `cd src/LoadTestCC`
+
 `dotnet run`
 
 - Check its status at `http://localhost:5000/ltcc/getstatus`
 
 - Run one or more agents
 
-`cd sample\TestAgentExeEmpty`
+`cd sample/TestAgentExeWebget`
+
 `dotnet run`
 
 - Tell the CC to use some clients:  `http://localhost:5000/ltcc/settarget/5`

@@ -4,7 +4,7 @@ using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace LoadTestCC.Proto1.TestExe1Proc
+namespace LoadTestCC.Proto1.Sample.TestExe1Proc
 {
     public class Program
     {
@@ -21,7 +21,7 @@ namespace LoadTestCC.Proto1.TestExe1Proc
             for (int i = 0; i < 3; ++i)
             {
                 IAgent a1 = new Agent.Agent();
-                a1.Init(cc, new ClientFactory());
+                a1.Init(cc, new ClientEmpty.ClientEmptyFactory());
                 a1.Start();
                 agents.Add(a1);
                 Console.WriteLine($"Program:  agent {agents.Count} started");

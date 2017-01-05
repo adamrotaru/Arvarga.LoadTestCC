@@ -6,18 +6,18 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Diagnostics;
 
-namespace LoadTestCC.Proto1.TestExe1ProcWebget
+namespace LoadTestCC.Proto1.Sample.ClientWebget
 {
-    public class WebgetClientFactory : IClientFactory
+    public class ClientWebgetFactory : IClientFactory
     {
         public IClient CreateNew(string clientId)
         {
-            return new WebgetClient{ Id = clientId };
+            return new ClientWebget{ Id = clientId };
         }
     }
 
     /// TODO response time statistics
-    public class WebgetClient : IClient
+    public class ClientWebget : IClient
     {
         public static readonly string Url = "http://google.com";
         public static readonly int Iterations = 5;

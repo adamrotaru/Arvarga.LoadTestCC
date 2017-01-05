@@ -2,19 +2,13 @@
   "version": "1.0.0-*",
   "buildOptions": {
     "debugType": "portable",
-    "emitEntryPoint": true
+    "emitEntryPoint": false
   },
   "dependencies": {
     "Iface":{
       "target":"project"
     },
-    "CommCont":{
-      "target":"project"
-    },
     "Agent":{
-      "target":"project"
-    },
-    "ClientEmpty":{
       "target":"project"
     }
   },

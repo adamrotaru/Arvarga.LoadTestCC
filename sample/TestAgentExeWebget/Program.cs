@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LoadTestCC.Proto1.Sample.TestAgentExeEmpty
+namespace LoadTestCC.Proto1.Sample.TestAgentExeWebget
 {
     public class Program
     {
@@ -19,7 +19,7 @@ namespace LoadTestCC.Proto1.Sample.TestAgentExeEmpty
             Console.WriteLine($"CC Url: {ccUrl}");
 
             RemoteAgent.RemoteAgent agent = new RemoteAgent.RemoteAgent();
-            agent.Init(ccUrl, new ClientEmpty.ClientEmptyFactory());
+            agent.Init(ccUrl, new ClientWebget.ClientWebgetFactory());
             agent.Start();
             Console.WriteLine($"Program:  agent started");
 

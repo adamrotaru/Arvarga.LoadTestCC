@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using LoadTestCC.Proto1.Iface;
-using LoadTestCC.Proto1.Agent;
+using LoadTestCC.Iface;
+using LoadTestCC.Agent;
 
-namespace LoadTestCC.Proto1.RemoteAgent
+namespace LoadTestCC.RemoteAgent
 {
     /// <summary>
     /// </summary>

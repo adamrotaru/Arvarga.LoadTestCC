@@ -1,6 +1,6 @@
 using System;
 
-namespace LoadTestCC.Proto1.Iface
+namespace LoadTestCC.Iface
 {
     /// <summary>
     /// Command-and-Control, control interface

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LoadTestCC.Proto1.Sample.TestAgentExeWebget
+namespace LoadTestCC.Sample.TestAgentExeWebget
 {
     public class Program
     {

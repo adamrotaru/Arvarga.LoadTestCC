@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using LoadTestCC.Proto1.Iface;
+using LoadTestCC.Iface;
 
-namespace LoadTestCC.Proto1.Agent
+namespace LoadTestCC.Agent
 {
     ///<summary>
     ///A load test client interface

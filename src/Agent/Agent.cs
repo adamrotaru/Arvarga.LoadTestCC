@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;using System.Threading.Tasks;
-using LoadTestCC.Proto1.Iface;
+using LoadTestCC.Iface;
 
-namespace LoadTestCC.Proto1.Agent
+namespace LoadTestCC.Agent
 {
     public class ClientInfo
     {

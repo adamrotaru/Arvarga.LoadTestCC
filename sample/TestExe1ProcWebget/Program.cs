@@ -1,10 +1,10 @@
-﻿using LoadTestCC.Proto1.Iface;
-using LoadTestCC.Proto1.Agent;
+﻿using LoadTestCC.Iface;
+using LoadTestCC.Agent;
 using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace LoadTestCC.Proto1.Sample.TestExe1ProcWebget
+namespace LoadTestCC.Sample.TestExe1ProcWebget
 {
     public class Program
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 
-namespace LoadTestCC.Proto1.LoadTestCC
+namespace LoadTestCC.LoadTestCC
 {
     public class Program
     {

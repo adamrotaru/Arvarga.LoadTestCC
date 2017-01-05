@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LoadTestCC.Proto1.Sample.TestAgentExeEmpty
+namespace LoadTestCC.Sample.TestAgentExeEmpty
 {
     public class Program
     {

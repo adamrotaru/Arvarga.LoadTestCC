@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using LoadTestCC.Proto1.Iface;
+using LoadTestCC.Iface;
 
-namespace LoadTestCC.Proto1.LoadTestCC.Controllers
+namespace LoadTestCC.LoadTestCC.Controllers
 {
     /// <summary>
     /// Example calls:

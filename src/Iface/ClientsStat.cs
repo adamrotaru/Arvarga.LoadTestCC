@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LoadTestCC.Proto1.Iface
+namespace LoadTestCC.Iface
 {
     public enum StatParamAggregationStrategy
     {

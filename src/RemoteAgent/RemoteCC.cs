@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using LoadTestCC.Proto1.Iface;
+using LoadTestCC.Iface;
 
-namespace LoadTestCC.Proto1.RemoteAgent
+namespace LoadTestCC.RemoteAgent
 {
     public class RemoteCC : ICCAgent
     {

@@ -7,10 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using LoadTestCC.Proto1.Iface;
-using LoadTestCC.Proto1.CommCont;
+using LoadTestCC.Iface;
+using LoadTestCC.CommCont;
 
-namespace LoadTestCC.Proto1.LoadTestCC
+namespace LoadTestCC.LoadTestCC
 {
     public class Startup
     {

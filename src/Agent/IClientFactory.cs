@@ -1,7 +1,7 @@
 using System;
-using LoadTestCC.Proto1.Iface;
+using LoadTestCC.Iface;
 
-namespace LoadTestCC.Proto1.Agent
+namespace LoadTestCC.Agent
 {
     ///<summary>
     ///A load test client interface

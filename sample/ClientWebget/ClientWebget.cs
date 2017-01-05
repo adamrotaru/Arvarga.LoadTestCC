@@ -1,12 +1,12 @@
-using LoadTestCC.Proto1.Iface;
-using LoadTestCC.Proto1.Agent;
+using LoadTestCC.Iface;
+using LoadTestCC.Agent;
 using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Diagnostics;
 
-namespace LoadTestCC.Proto1.Sample.ClientWebget
+namespace LoadTestCC.Sample.ClientWebget
 {
     public class ClientWebgetFactory : IClientFactory
     {

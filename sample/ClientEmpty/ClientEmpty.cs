@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using LoadTestCC.Proto1.Iface;
-using LoadTestCC.Proto1.Agent;
+using LoadTestCC.Iface;
+using LoadTestCC.Agent;
 
-namespace LoadTestCC.Proto1.Sample.ClientEmpty
+namespace LoadTestCC.Sample.ClientEmpty
 {
     public class ClientEmptyFactory : IClientFactory
     {

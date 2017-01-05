@@ -1,0 +1,17 @@
+# Exclude output files
+**/bin/**
+
+# Exclude generated temp files during build
+**/obj/**
+
+# Exclude NuGet packages
+**/packages/**
+
+# Exclude VisulaStudio private files
+.vs/**
+
+# Exclude project.lock files
+*.lock.json
+
+# Exclude pdb files
+*.pdb

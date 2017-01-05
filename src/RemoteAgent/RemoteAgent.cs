@@ -13,9 +13,11 @@ namespace LoadTestCC.Proto1.RemoteAgent
         private Agent.Agent _wrappedAgent;
         private RemoteCC _remoteCC;
 
-        public void Init(string baseUrl, IClientFactory clientFactory)
+        /// <summary><summary>
+        /// <paramref name="ccUrl">Base URL of the CC webapp</paramref>
+        public void Init(string ccUrl, IClientFactory clientFactory)
         {
-            _remoteCC = new RemoteCC(baseUrl);
+            _remoteCC = new RemoteCC(ccUrl);
             _wrappedAgent = new Agent.Agent();
             _wrappedAgent.Init(_remoteCC, clientFactory);
         }
